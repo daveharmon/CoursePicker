@@ -1,0 +1,31 @@
+# vim swap files
+*.sw[op]
+
+# compiled files
+*.pyc
+*.jar
+*/target
+
+# IntelliJ files
+.idea
+*.[ei]ml
+
+# Eclipse
+.classpath
+.settings/
+.project
+
+# Compiled query grammar files
+mdec-rest/src/main/java/com/bah/mdec/query/grammar
+*.class
+*.tokens
+
+# log files
+*/log.txt
+*.out
+
+# temporary files
+*~
+
+# dependency reduced pom files
+*/dependency-reduced-pom.xml
